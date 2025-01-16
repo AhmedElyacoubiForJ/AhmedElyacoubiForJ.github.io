@@ -116,9 +116,9 @@ Inheritance diagram for edu.yacoubi.crm.service.IEntityOrchestratorService:</div
 <div class="dyncontent">
 <div class="center"><img src="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_entity_orchestrator_service__inherit__graph.png" border="0" usemap="#aedu_8yacoubi_8crm_8service_8_i_entity_orchestrator_service_inherit__map" alt="Inheritance graph"/></div>
 <map name="aedu_8yacoubi_8crm_8service_8_i_entity_orchestrator_service_inherit__map" id="aedu_8yacoubi_8crm_8service_8_i_entity_orchestrator_service_inherit__map">
-<area shape="rect" title="Service interface for orchestrating entities." alt="" coords="6,5,216,149"/>
-<area shape="rect" href="classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl.html" title="Service implementation for orchestrating entities." alt="" coords="5,197,216,448"/>
-<area shape="poly" title=" " alt="" coords="114,164,114,197,108,197,108,164"/>
+<area shape="rect" title="Service interface for orchestrating entities." alt="" coords="6,5,216,171"/>
+<area shape="rect" href="classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl.html" title="Service implementation for orchestrating entities." alt="" coords="5,219,216,491"/>
+<area shape="poly" title=" " alt="" coords="114,185,114,219,108,219,108,185"/>
 </map>
 </div>
 <div class="dynheader">
@@ -126,7 +126,7 @@ Collaboration diagram for edu.yacoubi.crm.service.IEntityOrchestratorService:</d
 <div class="dyncontent">
 <div class="center"><img src="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_entity_orchestrator_service__coll__graph.png" border="0" usemap="#aedu_8yacoubi_8crm_8service_8_i_entity_orchestrator_service_coll__map" alt="Collaboration graph"/></div>
 <map name="aedu_8yacoubi_8crm_8service_8_i_entity_orchestrator_service_coll__map" id="aedu_8yacoubi_8crm_8service_8_i_entity_orchestrator_service_coll__map">
-<area shape="rect" title="Service interface for orchestrating entities." alt="" coords="5,5,215,149"/>
+<area shape="rect" title="Service interface for orchestrating entities." alt="" coords="5,5,215,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -141,11 +141,47 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac1cfa53d6db8bcbe160a019df20e1148" id="r_ac1cfa53d6db8bcbe160a019df20e1148"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1cfa53d6db8bcbe160a019df20e1148">reassignCustomers</a> (Long oldEmployeeId, Long newEmployeeId)</td></tr>
 <tr class="memdesc:ac1cfa53d6db8bcbe160a019df20e1148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reassigns customers from an old employee to a new employee.  <br /></td></tr>
 <tr class="separator:ac1cfa53d6db8bcbe160a019df20e1148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb5b4ac53ae41a7f2baf409f0ff3cf15" id="r_aeb5b4ac53ae41a7f2baf409f0ff3cf15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_customer.html">Customer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb5b4ac53ae41a7f2baf409f0ff3cf15">createCustomerForEmployee</a> (<a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_customer.html">Customer</a> customer, Long employeeId)</td></tr>
+<tr class="memdesc:aeb5b4ac53ae41a7f2baf409f0ff3cf15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a customer and assigns them to an employee.  <br /></td></tr>
+<tr class="separator:aeb5b4ac53ae41a7f2baf409f0ff3cf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Service interface for orchestrating entities. </p>
 <p>This interface defines operations related to employees and customers. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aeb5b4ac53ae41a7f2baf409f0ff3cf15" name="aeb5b4ac53ae41a7f2baf409f0ff3cf15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb5b4ac53ae41a7f2baf409f0ff3cf15">&#9670;&#160;</a></span>createCustomerForEmployee()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_customer.html">Customer</a> edu.yacoubi.crm.service.IEntityOrchestratorService.createCustomerForEmployee </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_customer.html">Customer</a></td>          <td class="paramname"><span class="paramname"><em>customer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Long</td>          <td class="paramname"><span class="paramname"><em>employeeId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a customer and assigns them to an employee. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">customer</td><td>The customer to be created. </td></tr>
+    <tr><td class="paramname">employeeId</td><td>ID of the employee to whom the customer will be assigned. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The created customer. </dd></dl>
+
+<p>Implemented in <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl.html#a018377c9fc74bd504cc39d7d0faeecaa">edu.yacoubi.crm.service.impl.EntityOrchestratorServiceImpl</a>.</p>
+
+</div>
+</div>
 <a id="a3f159b116573548c3ac59b495d8cf269" name="a3f159b116573548c3ac59b495d8cf269"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f159b116573548c3ac59b495d8cf269">&#9670;&#160;</a></span>deleteEmployeeAndReassignCustomers()</h2>
 

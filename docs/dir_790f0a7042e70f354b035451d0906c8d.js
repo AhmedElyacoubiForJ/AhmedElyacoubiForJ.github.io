@@ -1,5 +1,6 @@
 var dir_790f0a7042e70f354b035451d0906c8d =
 [
+    [ "ApiResponseHelper.java", "_api_response_helper_8java.html", "_api_response_helper_8java" ],
     [ "EntityTransformer.java", "_entity_transformer_8java.html", "_entity_transformer_8java" ],
     [ "ITransformer.java", "_i_transformer_8java.html", "_i_transformer_8java" ],
     [ "TransformerUtil.java", "_transformer_util_8java.html", "_transformer_util_8java" ],

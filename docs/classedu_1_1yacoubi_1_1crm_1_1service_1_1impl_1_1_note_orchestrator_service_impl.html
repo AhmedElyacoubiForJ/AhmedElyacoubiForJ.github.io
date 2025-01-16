@@ -115,7 +115,7 @@ Inheritance diagram for edu.yacoubi.crm.service.impl.NoteOrchestratorServiceImpl
 <div class="center"><img src="classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_note_orchestrator_service_impl__inherit__graph.png" border="0" usemap="#aedu_8yacoubi_8crm_8service_8impl_8_note_orchestrator_service_impl_inherit__map" alt="Inheritance graph"/></div>
 <map name="aedu_8yacoubi_8crm_8service_8impl_8_note_orchestrator_service_impl_inherit__map" id="aedu_8yacoubi_8crm_8service_8impl_8_note_orchestrator_service_impl_inherit__map">
 <area shape="rect" title=" " alt="" coords="5,139,190,245"/>
-<area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_note_orchestrator_service.html" title=" " alt="" coords="12,5,184,91"/>
+<area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_note_orchestrator_service.html" title="Service interface for orchestrating notes." alt="" coords="12,5,184,91"/>
 <area shape="poly" title=" " alt="" coords="100,106,100,139,95,139,95,106"/>
 </map>
 </div>
@@ -125,7 +125,7 @@ Collaboration diagram for edu.yacoubi.crm.service.impl.NoteOrchestratorServiceIm
 <div class="center"><img src="classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_note_orchestrator_service_impl__coll__graph.png" border="0" usemap="#aedu_8yacoubi_8crm_8service_8impl_8_note_orchestrator_service_impl_coll__map" alt="Collaboration graph"/></div>
 <map name="aedu_8yacoubi_8crm_8service_8impl_8_note_orchestrator_service_impl_coll__map" id="aedu_8yacoubi_8crm_8service_8impl_8_note_orchestrator_service_impl_coll__map">
 <area shape="rect" title=" " alt="" coords="214,464,398,549"/>
-<area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_note_orchestrator_service.html" title=" " alt="" coords="5,160,177,245"/>
+<area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_note_orchestrator_service.html" title="Service interface for orchestrating notes." alt="" coords="5,160,177,245"/>
 <area shape="poly" title=" " alt="" coords="114,258,147,327,191,398,221,432,253,462,250,466,217,436,187,402,142,330,110,260"/>
 <area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_customer_service.html" title=" " alt="" coords="201,5,411,400"/>
 <area shape="poly" title=" " alt="" coords="309,400,309,447,303,447,303,400"/>
@@ -137,6 +137,7 @@ Collaboration diagram for edu.yacoubi.crm.service.impl.NoteOrchestratorServiceIm
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad406bf737b4547edd47d2f8ff177e96d" id="r_ad406bf737b4547edd47d2f8ff177e96d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad406bf737b4547edd47d2f8ff177e96d">createNoteForCustomer</a> (<a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_note.html">Note</a> note, Long customerId)</td></tr>
+<tr class="memdesc:ad406bf737b4547edd47d2f8ff177e96d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a note and assigns it to a customer.  <br /></td></tr>
 <tr class="separator:ad406bf737b4547edd47d2f8ff177e96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -173,6 +174,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates a note and assigns it to a customer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">note</td><td>The note to be created. </td></tr>
+    <tr><td class="paramname">customerId</td><td>ID of the customer to whom the note will be assigned. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The created note. </dd></dl>
 
 <p>Implements <a class="el" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_note_orchestrator_service.html#a0fb068d672f21fb5f4de83f147071241">edu.yacoubi.crm.service.INoteOrchestratorService</a>.</p>
 

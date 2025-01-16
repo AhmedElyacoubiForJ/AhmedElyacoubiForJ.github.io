@@ -1,5 +1,6 @@
 var classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl =
 [
+    [ "createCustomerForEmployee", "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl.html#a018377c9fc74bd504cc39d7d0faeecaa", null ],
     [ "createDeleteEmployeeAction", "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl.html#a4a846ac997a400b7c77dad82c45ead80", null ],
     [ "deleteEmployeeAndReassignCustomers", "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl.html#a95739a96f999006743333217a2fe7382", null ],
     [ "handleCustomerReassignment", "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_entity_orchestrator_service_impl.html#acffff236b331bb412af59d1ca4c04068", null ],

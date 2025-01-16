@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "edu.yacoubi.crm.dto.APIResponse< T >", "classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html", null ],
+    [ "edu.yacoubi.crm.util.ApiResponseHelper", "classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html", null ],
     [ "CommandLineRunner", null, [
       [ "edu.yacoubi.crm.scenarios.CRMScenarioRunner", "classedu_1_1yacoubi_1_1crm_1_1scenarios_1_1_c_r_m_scenario_runner.html", null ]
     ] ],
@@ -66,6 +67,7 @@ var hierarchy =
     [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.dto.note.NoteResponseDTO, edu.yacoubi.crm.model.Note >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
     [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.model.Customer, edu.yacoubi.crm.dto.customer.CustomerResponseDTO >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
     [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.model.Employee, edu.yacoubi.crm.dto.employee.EmployeeResponseDTO >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
+    [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.model.Employee, edu.yacoubi.crm.model.InactiveEmployee >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
     [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.model.Note, edu.yacoubi.crm.dto.note.NoteResponseDTO >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
     [ "JpaRepository", null, [
       [ "edu.yacoubi.crm.repository.CustomerRepository", "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_customer_repository.html", null ],
