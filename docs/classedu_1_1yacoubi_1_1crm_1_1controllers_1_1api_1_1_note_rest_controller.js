@@ -1,10 +1,10 @@
 var classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller =
 [
-    [ "createNoteForCustomer", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#ac3a7158866caa6af2a25b1fdbf6d5a0c", null ],
-    [ "deleteNoteById", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#a0337518ae701ffd362726faeea3e8a68", null ],
-    [ "getNoteById", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#ab8f2867d9fd1b2dff3bc540c3aec8721", null ],
-    [ "patchNote", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#a08a782a1da2b87be3a5fa565124bf6ec", null ],
-    [ "updateNote", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#aa7d8011af5ef7c96fc509da4aa17952e", null ],
+    [ "createNoteForCustomer", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#a936941387c72f4b30040474e36fa3360", null ],
+    [ "deleteNoteById", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#aba27159267d0f99f15c84ab42e08c462", null ],
+    [ "getNoteById", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#a0b0f78a872b83e974605f7854c0d6396", null ],
+    [ "patchNote", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#ac786767c258299a96261fe5ec412836f", null ],
+    [ "updateNote", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#ab99d74936a7be85ac8311af93a9aac20", null ],
     [ "noteOrchestratorService", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#aff5d191b93374d50108fb6c2c3af92db", null ],
     [ "noteService", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html#acbcd4f41367a72061374ca32d2823d5f", null ]
 ];

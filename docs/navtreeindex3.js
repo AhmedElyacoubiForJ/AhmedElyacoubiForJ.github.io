@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_custom_customer_repository.html#acdc0d51f5bede8b7a2f1769e3f02103a":[1,0,0,0,0,6,1,0],
+"interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_custom_customer_repository.html#acdc0d51f5bede8b7a2f1769e3f02103a":[2,0,0,0,0,6,1,0],
 "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_customer_repository.html":[1,0,0,0,0,6,3],
 "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_customer_repository.html":[2,0,0,0,0,6,3],
 "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_customer_repository.html#a2bb95bb29128ccf4b921e4ef76ef433f":[1,0,0,0,0,6,3,3],

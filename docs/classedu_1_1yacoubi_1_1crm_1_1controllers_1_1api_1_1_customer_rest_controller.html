@@ -104,6 +104,8 @@ $(function(){initNavTree('classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_c
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_customer_rest_controller-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">edu.yacoubi.crm.controllers.api.CustomerRestController Class Reference</div></div>
@@ -114,28 +116,40 @@ Collaboration diagram for edu.yacoubi.crm.controllers.api.CustomerRestController
 <div class="dyncontent">
 <div class="center"><img src="classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_customer_rest_controller__coll__graph.png" border="0" usemap="#aedu_8yacoubi_8crm_8controllers_8api_8_customer_rest_controller_coll__map" alt="Collaboration graph"/></div>
 <map name="aedu_8yacoubi_8crm_8controllers_8api_8_customer_rest_controller_coll__map" id="aedu_8yacoubi_8crm_8controllers_8api_8_customer_rest_controller_coll__map">
-<area shape="rect" title=" " alt="" coords="127,464,329,656"/>
+<area shape="rect" title=" " alt="" coords="127,464,329,699"/>
 <area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_customer_service.html" title=" " alt="" coords="5,5,215,400"/>
-<area shape="poly" title=" " alt="" coords="178,399,194,447,188,449,172,400"/>
+<area shape="poly" title=" " alt="" coords="174,399,189,447,184,449,169,401"/>
 <area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_entity_orchestrator_service.html" title="Service interface for orchestrating entities." alt="" coords="240,120,450,285"/>
-<area shape="poly" title=" " alt="" coords="339,286,324,362,301,441,297,450,292,448,296,439,319,361,333,285"/>
+<area shape="poly" title=" " alt="" coords="335,286,319,362,297,441,294,449,289,447,292,439,314,360,330,284"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2d50829b0a6102eecb8ac9492e264b17" id="r_a2d50829b0a6102eecb8ac9492e264b17"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Page&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d50829b0a6102eecb8ac9492e264b17">getAllCustomers</a> ( @RequestParam(defaultValue=&quot;0&quot;) int page, @RequestParam(defaultValue=&quot;10&quot;) int size, @RequestParam(required=false) String search)</td></tr>
-<tr class="separator:a2d50829b0a6102eecb8ac9492e264b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f318266a87b84fea2756aa0848582d7" id="r_a2f318266a87b84fea2756aa0848582d7"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f318266a87b84fea2756aa0848582d7">getCustomerById</a> (@PathVariable Long customerId)</td></tr>
-<tr class="separator:a2f318266a87b84fea2756aa0848582d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80b6623b60ca6abaa7a95f25c173afa3" id="r_a80b6623b60ca6abaa7a95f25c173afa3"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80b6623b60ca6abaa7a95f25c173afa3">createCustomerForEmployee</a> ( @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a> customerRequestDTO, @RequestParam Long employeeId)</td></tr>
-<tr class="separator:a80b6623b60ca6abaa7a95f25c173afa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf4d168770fabacaae990a8c9a55fea" id="r_a8bf4d168770fabacaae990a8c9a55fea"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bf4d168770fabacaae990a8c9a55fea">updateCustomer</a> ( @PathVariable Long customerId, @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a> customerRequestDTO)</td></tr>
-<tr class="separator:a8bf4d168770fabacaae990a8c9a55fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ac4546dd2b57a01a61a82ac4a99a7da" id="r_a0ac4546dd2b57a01a61a82ac4a99a7da"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac4546dd2b57a01a61a82ac4a99a7da">patchCustomer</a> ( @PathVariable Long customerId, @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_patch_d_t_o.html">CustomerPatchDTO</a> customerPatchDTO)</td></tr>
-<tr class="separator:a0ac4546dd2b57a01a61a82ac4a99a7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e40ec93ee9da400c28b2b3a36763224" id="r_a4e40ec93ee9da400c28b2b3a36763224"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Void &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e40ec93ee9da400c28b2b3a36763224">deleteCustomer</a> (@PathVariable Long customerId)</td></tr>
-<tr class="separator:a4e40ec93ee9da400c28b2b3a36763224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee65da8327d1f4a76429d52ecea660e4" id="r_aee65da8327d1f4a76429d52ecea660e4"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Page&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee65da8327d1f4a76429d52ecea660e4">getAllCustomers</a> (final @RequestParam(defaultValue=&quot;0&quot;) int page, final @RequestParam(defaultValue=&quot;10&quot;) int size, final @RequestParam(required=false) String search)</td></tr>
+<tr class="separator:aee65da8327d1f4a76429d52ecea660e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a660370475e6f477b398498c84578db69" id="r_a660370475e6f477b398498c84578db69"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a660370475e6f477b398498c84578db69">getCustomerById</a> (final @PathVariable Long customerId)</td></tr>
+<tr class="separator:a660370475e6f477b398498c84578db69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24654681759ba1b9da290f70442160d4" id="r_a24654681759ba1b9da290f70442160d4"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24654681759ba1b9da290f70442160d4">createCustomerForEmployee</a> (final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a> customerRequestDTO, final @RequestParam Long employeeId)</td></tr>
+<tr class="separator:a24654681759ba1b9da290f70442160d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1d7753fc9cfab26c99f10af6fb73f7" id="r_a9b1d7753fc9cfab26c99f10af6fb73f7"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b1d7753fc9cfab26c99f10af6fb73f7">updateCustomer</a> (final @PathVariable Long customerId, final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a> customerRequestDTO)</td></tr>
+<tr class="separator:a9b1d7753fc9cfab26c99f10af6fb73f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee08f948bc5a1666e4c961291429d7b7" id="r_aee08f948bc5a1666e4c961291429d7b7"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee08f948bc5a1666e4c961291429d7b7">patchCustomer</a> (final @PathVariable Long customerId, final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_patch_d_t_o.html">CustomerPatchDTO</a> customerPatchDTO)</td></tr>
+<tr class="separator:aee08f948bc5a1666e4c961291429d7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabee4e8580604d04e38806e8f2c20ade" id="r_aabee4e8580604d04e38806e8f2c20ade"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Void &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabee4e8580604d04e38806e8f2c20ade">deleteCustomer</a> (final @PathVariable Long customerId)</td></tr>
+<tr class="separator:aabee4e8580604d04e38806e8f2c20ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a92bb35b898dc3c9ce11125fe8dd0c70f" id="r_a92bb35b898dc3c9ce11125fe8dd0c70f"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92bb35b898dc3c9ce11125fe8dd0c70f">SUCCESS</a> = &quot;Success&quot;</td></tr>
+<tr class="separator:a92bb35b898dc3c9ce11125fe8dd0c70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a452bcc778fbe8962dea0c502dffa926d" id="r_a452bcc778fbe8962dea0c502dffa926d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a452bcc778fbe8962dea0c502dffa926d">COMPLETED</a> = &quot;Operation completed&quot;</td></tr>
+<tr class="separator:a452bcc778fbe8962dea0c502dffa926d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a75ecb8aa038fca5fa8860c76a6cecdef" id="r_a75ecb8aa038fca5fa8860c76a6cecdef"><td class="memItemLeft" align="right" valign="top">Page&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_customer.html">Customer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75ecb8aa038fca5fa8860c76a6cecdef">getCustomerPage</a> (int page, int size, String search)</td></tr>
+<tr class="separator:a75ecb8aa038fca5fa8860c76a6cecdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -144,9 +158,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a259dd989d09e5d557ddca4f84c5e9089" id="r_a259dd989d09e5d557ddca4f84c5e9089"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_entity_orchestrator_service.html">IEntityOrchestratorService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a259dd989d09e5d557ddca4f84c5e9089">entityOrchestratorService</a></td></tr>
 <tr class="separator:a259dd989d09e5d557ddca4f84c5e9089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a80b6623b60ca6abaa7a95f25c173afa3" name="a80b6623b60ca6abaa7a95f25c173afa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80b6623b60ca6abaa7a95f25c173afa3">&#9670;&#160;</a></span>createCustomerForEmployee()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>REST controller for managing customer resources in the CRM system.</p>
+<dl class="section author"><dt>Author</dt><dd>A. El Yacoubi </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a24654681759ba1b9da290f70442160d4" name="a24654681759ba1b9da290f70442160d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24654681759ba1b9da290f70442160d4">&#9670;&#160;</a></span>createCustomerForEmployee()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,12 +174,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.CustomerRestController.createCustomerForEmployee </td>
           <td>(</td>
-          <td class="paramtype">@Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>customerRequestDTO</em></span>, </td>
+          <td class="paramtype">final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>customerRequestDTO</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@RequestParam Long</td>          <td class="paramname"><span class="paramname"><em>employeeId</em></span>&#160;)</td>
+          <td class="paramtype">final @RequestParam Long</td>          <td class="paramname"><span class="paramname"><em>employeeId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -171,11 +188,20 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>This operation creates a new customer in the CRM system.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">customerRequestDTO</td><td>the customer request data transfer object containing the details of the customer to be created </td></tr>
+    <tr><td class="paramname">employeeId</td><td>the unique ID of the employee to whom the customer will be assigned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the created customer details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
-<a id="a4e40ec93ee9da400c28b2b3a36763224" name="a4e40ec93ee9da400c28b2b3a36763224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e40ec93ee9da400c28b2b3a36763224">&#9670;&#160;</a></span>deleteCustomer()</h2>
+<a id="aabee4e8580604d04e38806e8f2c20ade" name="aabee4e8580604d04e38806e8f2c20ade"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabee4e8580604d04e38806e8f2c20ade">&#9670;&#160;</a></span>deleteCustomer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +212,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Void &gt; &gt; edu.yacoubi.crm.controllers.api.CustomerRestController.deleteCustomer </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span></td><td>)</td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -196,11 +222,19 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Delete an existing customer by their unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">customerId</td><td>the unique ID of the customer to delete </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a response indicating the success of the deletion </dd></dl>
 
 </div>
 </div>
-<a id="a2d50829b0a6102eecb8ac9492e264b17" name="a2d50829b0a6102eecb8ac9492e264b17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d50829b0a6102eecb8ac9492e264b17">&#9670;&#160;</a></span>getAllCustomers()</h2>
+<a id="aee65da8327d1f4a76429d52ecea660e4" name="aee65da8327d1f4a76429d52ecea660e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee65da8327d1f4a76429d52ecea660e4">&#9670;&#160;</a></span>getAllCustomers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,17 +245,17 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Page&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt; &gt; edu.yacoubi.crm.controllers.api.CustomerRestController.getAllCustomers </td>
           <td>(</td>
-          <td class="paramtype">@RequestParam(defaultValue=&quot;0&quot;) int</td>          <td class="paramname"><span class="paramname"><em>page</em></span>, </td>
+          <td class="paramtype">final @RequestParam(defaultValue=&quot;0&quot;) int</td>          <td class="paramname"><span class="paramname"><em>page</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@RequestParam(defaultValue=&quot;10&quot;) int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+          <td class="paramtype">final @RequestParam(defaultValue=&quot;10&quot;) int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@RequestParam(required=false) String</td>          <td class="paramname"><span class="paramname"><em>search</em></span>&#160;)</td>
+          <td class="paramtype">final @RequestParam(required=false) String</td>          <td class="paramname"><span class="paramname"><em>search</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -230,11 +264,21 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Retrieve a list of all customers in the CRM system with pagination and optional search.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>the page number to retrieve, default is 0 </td></tr>
+    <tr><td class="paramname">size</td><td>the size of the page to retrieve, default is 10 </td></tr>
+    <tr><td class="paramname">search</td><td>an optional search parameter to filter customers by first name or email </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a paginated list of all customers wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
-<a id="a2f318266a87b84fea2756aa0848582d7" name="a2f318266a87b84fea2756aa0848582d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f318266a87b84fea2756aa0848582d7">&#9670;&#160;</a></span>getCustomerById()</h2>
+<a id="a660370475e6f477b398498c84578db69" name="a660370475e6f477b398498c84578db69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a660370475e6f477b398498c84578db69">&#9670;&#160;</a></span>getCustomerById()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -245,7 +289,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.CustomerRestController.getCustomerById </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span></td><td>)</td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -255,11 +299,63 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Retrieve a customer by their unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">customerId</td><td>the unique ID of the customer to retrieve </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the customer details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
-<a id="a0ac4546dd2b57a01a61a82ac4a99a7da" name="a0ac4546dd2b57a01a61a82ac4a99a7da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ac4546dd2b57a01a61a82ac4a99a7da">&#9670;&#160;</a></span>patchCustomer()</h2>
+<a id="a75ecb8aa038fca5fa8860c76a6cecdef" name="a75ecb8aa038fca5fa8860c76a6cecdef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ecb8aa038fca5fa8860c76a6cecdef">&#9670;&#160;</a></span>getCustomerPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Page&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1model_1_1_customer.html">Customer</a> &gt; edu.yacoubi.crm.controllers.api.CustomerRestController.getCustomerPage </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>page</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>search</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieves a page of customers, optionally filtered by a search term.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>the page number to retrieve </td></tr>
+    <tr><td class="paramname">size</td><td>the size of the page to retrieve </td></tr>
+    <tr><td class="paramname">search</td><td>an optional search parameter to filter customers by first name or email </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a page of customers matching the search criteria </dd></dl>
+
+</div>
+</div>
+<a id="aee08f948bc5a1666e4c961291429d7b7" name="aee08f948bc5a1666e4c961291429d7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee08f948bc5a1666e4c961291429d7b7">&#9670;&#160;</a></span>patchCustomer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,12 +366,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.CustomerRestController.patchCustomer </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span>, </td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_patch_d_t_o.html">CustomerPatchDTO</a></td>          <td class="paramname"><span class="paramname"><em>customerPatchDTO</em></span>&#160;)</td>
+          <td class="paramtype">final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_patch_d_t_o.html">CustomerPatchDTO</a></td>          <td class="paramname"><span class="paramname"><em>customerPatchDTO</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -284,11 +380,20 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Partial update of an existing customer by their unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">customerId</td><td>the unique ID of the customer to update </td></tr>
+    <tr><td class="paramname">customerPatchDTO</td><td>the customer patch data transfer object containing the partial updates of the customer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the updated customer details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
-<a id="a8bf4d168770fabacaae990a8c9a55fea" name="a8bf4d168770fabacaae990a8c9a55fea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf4d168770fabacaae990a8c9a55fea">&#9670;&#160;</a></span>updateCustomer()</h2>
+<a id="a9b1d7753fc9cfab26c99f10af6fb73f7" name="a9b1d7753fc9cfab26c99f10af6fb73f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b1d7753fc9cfab26c99f10af6fb73f7">&#9670;&#160;</a></span>updateCustomer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,12 +404,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_response_d_t_o.html">CustomerResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.CustomerRestController.updateCustomer </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span>, </td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>customerRequestDTO</em></span>&#160;)</td>
+          <td class="paramtype">final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1customer_1_1_customer_request_d_t_o.html">CustomerRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>customerRequestDTO</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -313,10 +418,42 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Full update of an existing customer by their unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">customerId</td><td>the unique ID of the customer to update </td></tr>
+    <tr><td class="paramname">customerRequestDTO</td><td>the customer request data transfer object containing the updated details of the customer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the updated customer details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a452bcc778fbe8962dea0c502dffa926d" name="a452bcc778fbe8962dea0c502dffa926d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a452bcc778fbe8962dea0c502dffa926d">&#9670;&#160;</a></span>COMPLETED</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String edu.yacoubi.crm.controllers.api.CustomerRestController.COMPLETED = &quot;Operation completed&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Completion message for a successful operation. </p>
+
+</div>
+</div>
 <a id="af6af8644bf1ccaf4dc15c2cdaf86c443" name="af6af8644bf1ccaf4dc15c2cdaf86c443"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6af8644bf1ccaf4dc15c2cdaf86c443">&#9670;&#160;</a></span>customerService</h2>
 
@@ -336,6 +473,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Service for customer operations. </p>
 
 </div>
 </div>
@@ -358,6 +496,30 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Orchestrator service for deleting and reassigning customers. </p>
+
+</div>
+</div>
+<a id="a92bb35b898dc3c9ce11125fe8dd0c70f" name="a92bb35b898dc3c9ce11125fe8dd0c70f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92bb35b898dc3c9ce11125fe8dd0c70f">&#9670;&#160;</a></span>SUCCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String edu.yacoubi.crm.controllers.api.CustomerRestController.SUCCESS = &quot;Success&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Success message. </p>
 
 </div>
 </div>

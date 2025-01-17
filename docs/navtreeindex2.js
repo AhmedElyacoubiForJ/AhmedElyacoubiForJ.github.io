@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"classedu_1_1yacoubi_1_1crm_1_1security_1_1model_1_1_user_employee.html":[1,0,0,0,0,8,2,4],
+"classedu_1_1yacoubi_1_1crm_1_1security_1_1model_1_1_user_employee.html":[2,0,0,0,0,8,2,4],
 "classedu_1_1yacoubi_1_1crm_1_1security_1_1model_1_1_user_employee.html#a24b37f0e03ff8c01e7da547ebae3312d":[1,0,0,0,0,8,2,4,1],
 "classedu_1_1yacoubi_1_1crm_1_1security_1_1model_1_1_user_employee.html#a24b37f0e03ff8c01e7da547ebae3312d":[2,0,0,0,0,8,2,4,1],
 "classedu_1_1yacoubi_1_1crm_1_1security_1_1model_1_1_user_employee.html#a29c12158064cb4e401225521e29f425f":[1,0,0,0,0,8,2,4,2],
@@ -34,8 +36,6 @@ var NAVTREEINDEX2 =
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#aa5d9ce523bf84d1694a15cb7e835e1c5":[2,0,0,0,0,9,0,0,8],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#aaac8dc40cb15427d2b1500f4163905e2":[1,0,0,0,0,9,0,0,9],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#aaac8dc40cb15427d2b1500f4163905e2":[2,0,0,0,0,9,0,0,9],
-"classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#abbf6402bee7224dc99ec9bcc9c77f7ae":[1,0,0,0,0,9,0,0,11],
-"classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#abbf6402bee7224dc99ec9bcc9c77f7ae":[2,0,0,0,0,9,0,0,11],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#ac3ac71cecce4a7d635f34ca33b6e9365":[1,0,0,0,0,9,0,0,2],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#ac3ac71cecce4a7d635f34ca33b6e9365":[2,0,0,0,0,9,0,0,2],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#ace0a8b5989bcea95d84cf08b650bbb88":[1,0,0,0,0,9,0,0,6],
@@ -46,6 +46,8 @@ var NAVTREEINDEX2 =
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#ade3b48f65ed55e8a599279b08024d4a7":[2,0,0,0,0,9,0,0,13],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#ae2a9888bfb8f4b5f3f8aa6b84d105151":[1,0,0,0,0,9,0,0,0],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#ae2a9888bfb8f4b5f3f8aa6b84d105151":[2,0,0,0,0,9,0,0,0],
+"classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#aea419744d65e57b0e64be79819c48f42":[1,0,0,0,0,9,0,0,11],
+"classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#aea419744d65e57b0e64be79819c48f42":[2,0,0,0,0,9,0,0,11],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#af40a93d73ebf257621c73254baa9f03e":[1,0,0,0,0,9,0,0,12],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_customer_service_impl.html#af40a93d73ebf257621c73254baa9f03e":[2,0,0,0,0,9,0,0,12],
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_employee_service_impl.html":[1,0,0,0,0,9,0,1],
@@ -164,8 +166,8 @@ var NAVTREEINDEX2 =
 "classedu_1_1yacoubi_1_1crm_1_1service_1_1validation_1_1_entity_validator.html#aec487e28a67c6092a5fe51514d3febfe":[2,0,0,0,0,9,2,0,6],
 "classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html":[1,0,0,0,0,10,0],
 "classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html":[2,0,0,0,0,10,0],
-"classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html#a3522e3ce0c2fa8d94c8337bbf2223150":[1,0,0,0,0,10,0,0],
-"classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html#a3522e3ce0c2fa8d94c8337bbf2223150":[2,0,0,0,0,10,0,0],
+"classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html#a6cf5d7a37f3598c44aa3a2a58db981ec":[1,0,0,0,0,10,0,0],
+"classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html#a6cf5d7a37f3598c44aa3a2a58db981ec":[2,0,0,0,0,10,0,0],
 "classedu_1_1yacoubi_1_1crm_1_1util_1_1_entity_transformer.html":[1,0,0,0,0,10,1],
 "classedu_1_1yacoubi_1_1crm_1_1util_1_1_entity_transformer.html":[2,0,0,0,0,10,1],
 "classedu_1_1yacoubi_1_1crm_1_1util_1_1_entity_transformer.html#a780cf27d2928c5e51572518171af3e8b":[1,0,0,0,0,10,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "hierarchy.html":[2,2],
 "index.html":[],
 "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_custom_customer_repository.html":[1,0,0,0,0,6,1],
-"interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_custom_customer_repository.html":[2,0,0,0,0,6,1],
-"interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_custom_customer_repository.html#acdc0d51f5bede8b7a2f1769e3f02103a":[1,0,0,0,0,6,1,0],
-"interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_custom_customer_repository.html#acdc0d51f5bede8b7a2f1769e3f02103a":[2,0,0,0,0,6,1,0]
+"interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_custom_customer_repository.html":[2,0,0,0,0,6,1]
 };

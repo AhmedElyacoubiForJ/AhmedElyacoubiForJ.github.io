@@ -104,6 +104,7 @@ $(function(){initNavTree('classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_n
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">edu.yacoubi.crm.controllers.api.NoteRestController Class Reference</div></div>
@@ -114,26 +115,33 @@ Collaboration diagram for edu.yacoubi.crm.controllers.api.NoteRestController:</d
 <div class="dyncontent">
 <div class="center"><img src="classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller__coll__graph.png" border="0" usemap="#aedu_8yacoubi_8crm_8controllers_8api_8_note_rest_controller_coll__map" alt="Collaboration graph"/></div>
 <map name="aedu_8yacoubi_8crm_8controllers_8api_8_note_rest_controller_coll__map" id="aedu_8yacoubi_8crm_8controllers_8api_8_note_rest_controller_coll__map">
-<area shape="rect" title=" " alt="" coords="89,261,285,432"/>
+<area shape="rect" title=" " alt="" coords="89,261,285,453"/>
 <area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_note_service.html" title=" " alt="" coords="5,5,174,197"/>
-<area shape="poly" title=" " alt="" coords="130,196,150,245,145,247,125,198"/>
+<area shape="poly" title=" " alt="" coords="129,196,147,245,142,247,124,198"/>
 <area shape="rect" href="interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_note_orchestrator_service.html" title="Service interface for orchestrating notes." alt="" coords="198,59,370,144"/>
-<area shape="poly" title=" " alt="" coords="270,145,230,246,225,245,266,143"/>
+<area shape="poly" title=" " alt="" coords="271,145,232,247,227,245,266,143"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab8f2867d9fd1b2dff3bc540c3aec8721" id="r_ab8f2867d9fd1b2dff3bc540c3aec8721"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8f2867d9fd1b2dff3bc540c3aec8721">getNoteById</a> (@PathVariable Long customerId)</td></tr>
-<tr class="separator:ab8f2867d9fd1b2dff3bc540c3aec8721"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3a7158866caa6af2a25b1fdbf6d5a0c" id="r_ac3a7158866caa6af2a25b1fdbf6d5a0c"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3a7158866caa6af2a25b1fdbf6d5a0c">createNoteForCustomer</a> ( @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a> noteRequestDTO, @RequestParam Long customerId)</td></tr>
-<tr class="separator:ac3a7158866caa6af2a25b1fdbf6d5a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d8011af5ef7c96fc509da4aa17952e" id="r_aa7d8011af5ef7c96fc509da4aa17952e"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7d8011af5ef7c96fc509da4aa17952e">updateNote</a> ( @PathVariable Long noteId, @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a> noteRequestDTO)</td></tr>
-<tr class="separator:aa7d8011af5ef7c96fc509da4aa17952e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08a782a1da2b87be3a5fa565124bf6ec" id="r_a08a782a1da2b87be3a5fa565124bf6ec"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a782a1da2b87be3a5fa565124bf6ec">patchNote</a> ( @PathVariable Long noteId, @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_patch_d_t_o.html">NotePatchDTO</a> notePatchDTO)</td></tr>
-<tr class="separator:a08a782a1da2b87be3a5fa565124bf6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0337518ae701ffd362726faeea3e8a68" id="r_a0337518ae701ffd362726faeea3e8a68"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Void &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0337518ae701ffd362726faeea3e8a68">deleteNoteById</a> (@PathVariable Long customerId)</td></tr>
-<tr class="separator:a0337518ae701ffd362726faeea3e8a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b0f78a872b83e974605f7854c0d6396" id="r_a0b0f78a872b83e974605f7854c0d6396"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b0f78a872b83e974605f7854c0d6396">getNoteById</a> (final @PathVariable Long customerId)</td></tr>
+<tr class="separator:a0b0f78a872b83e974605f7854c0d6396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a936941387c72f4b30040474e36fa3360" id="r_a936941387c72f4b30040474e36fa3360"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936941387c72f4b30040474e36fa3360">createNoteForCustomer</a> (final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a> noteRequestDTO, final @RequestParam Long customerId)</td></tr>
+<tr class="separator:a936941387c72f4b30040474e36fa3360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab99d74936a7be85ac8311af93a9aac20" id="r_ab99d74936a7be85ac8311af93a9aac20"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab99d74936a7be85ac8311af93a9aac20">updateNote</a> (final @PathVariable Long noteId, final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a> noteRequestDTO)</td></tr>
+<tr class="separator:ab99d74936a7be85ac8311af93a9aac20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac786767c258299a96261fe5ec412836f" id="r_ac786767c258299a96261fe5ec412836f"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac786767c258299a96261fe5ec412836f">patchNote</a> (final @PathVariable Long noteId, final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_patch_d_t_o.html">NotePatchDTO</a> notePatchDTO)</td></tr>
+<tr class="separator:ac786767c258299a96261fe5ec412836f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba27159267d0f99f15c84ab42e08c462" id="r_aba27159267d0f99f15c84ab42e08c462"><td class="memItemLeft" align="right" valign="top">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Void &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba27159267d0f99f15c84ab42e08c462">deleteNoteById</a> (final @PathVariable Long noteId)</td></tr>
+<tr class="separator:aba27159267d0f99f15c84ab42e08c462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ad1dc94cb669afd6bda6016285a106e73" id="r_ad1dc94cb669afd6bda6016285a106e73"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1dc94cb669afd6bda6016285a106e73">SUCCESS</a> = &quot;Success&quot;</td></tr>
+<tr class="separator:ad1dc94cb669afd6bda6016285a106e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac130a9ac1c1ce5525ee2b3683f5a0383" id="r_ac130a9ac1c1ce5525ee2b3683f5a0383"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac130a9ac1c1ce5525ee2b3683f5a0383">COMPLETED</a> = &quot;Operation completed&quot;</td></tr>
+<tr class="separator:ac130a9ac1c1ce5525ee2b3683f5a0383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -143,8 +151,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aff5d191b93374d50108fb6c2c3af92db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac3a7158866caa6af2a25b1fdbf6d5a0c" name="ac3a7158866caa6af2a25b1fdbf6d5a0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3a7158866caa6af2a25b1fdbf6d5a0c">&#9670;&#160;</a></span>createNoteForCustomer()</h2>
+<a id="a936941387c72f4b30040474e36fa3360" name="a936941387c72f4b30040474e36fa3360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a936941387c72f4b30040474e36fa3360">&#9670;&#160;</a></span>createNoteForCustomer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,12 +163,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.NoteRestController.createNoteForCustomer </td>
           <td>(</td>
-          <td class="paramtype">@Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>noteRequestDTO</em></span>, </td>
+          <td class="paramtype">final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>noteRequestDTO</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@RequestParam Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span>&#160;)</td>
+          <td class="paramtype">final @RequestParam Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -169,11 +177,20 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>This operation creates a new note for a specified customer in the CRM system.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">noteRequestDTO</td><td>the note request data transfer object containing the details of the note to be created </td></tr>
+    <tr><td class="paramname">customerId</td><td>the unique ID of the customer to whom the note will be assigned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the created note details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
-<a id="a0337518ae701ffd362726faeea3e8a68" name="a0337518ae701ffd362726faeea3e8a68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0337518ae701ffd362726faeea3e8a68">&#9670;&#160;</a></span>deleteNoteById()</h2>
+<a id="aba27159267d0f99f15c84ab42e08c462" name="aba27159267d0f99f15c84ab42e08c462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba27159267d0f99f15c84ab42e08c462">&#9670;&#160;</a></span>deleteNoteById()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +201,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; Void &gt; &gt; edu.yacoubi.crm.controllers.api.NoteRestController.deleteNoteById </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span></td><td>)</td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>noteId</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -194,11 +211,19 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Delete an existing note by its unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">noteId</td><td>the unique ID of the note to delete </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a response indicating the success of the deletion </dd></dl>
 
 </div>
 </div>
-<a id="ab8f2867d9fd1b2dff3bc540c3aec8721" name="ab8f2867d9fd1b2dff3bc540c3aec8721"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8f2867d9fd1b2dff3bc540c3aec8721">&#9670;&#160;</a></span>getNoteById()</h2>
+<a id="a0b0f78a872b83e974605f7854c0d6396" name="a0b0f78a872b83e974605f7854c0d6396"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b0f78a872b83e974605f7854c0d6396">&#9670;&#160;</a></span>getNoteById()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,7 +234,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.NoteRestController.getNoteById </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span></td><td>)</td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>customerId</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -219,11 +244,19 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Retrieve a note by its unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">customerId</td><td>the unique ID of the note to retrieve </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the retrieved note details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
-<a id="a08a782a1da2b87be3a5fa565124bf6ec" name="a08a782a1da2b87be3a5fa565124bf6ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08a782a1da2b87be3a5fa565124bf6ec">&#9670;&#160;</a></span>patchNote()</h2>
+<a id="ac786767c258299a96261fe5ec412836f" name="ac786767c258299a96261fe5ec412836f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac786767c258299a96261fe5ec412836f">&#9670;&#160;</a></span>patchNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,12 +267,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.NoteRestController.patchNote </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>noteId</em></span>, </td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>noteId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_patch_d_t_o.html">NotePatchDTO</a></td>          <td class="paramname"><span class="paramname"><em>notePatchDTO</em></span>&#160;)</td>
+          <td class="paramtype">final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_patch_d_t_o.html">NotePatchDTO</a></td>          <td class="paramname"><span class="paramname"><em>notePatchDTO</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -248,11 +281,20 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Partial update of an existing note by their unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">noteId</td><td>the unique ID of the note to update </td></tr>
+    <tr><td class="paramname">notePatchDTO</td><td>the note patch data transfer object containing the partial updates of the note </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the updated note details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
-<a id="aa7d8011af5ef7c96fc509da4aa17952e" name="aa7d8011af5ef7c96fc509da4aa17952e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7d8011af5ef7c96fc509da4aa17952e">&#9670;&#160;</a></span>updateNote()</h2>
+<a id="ab99d74936a7be85ac8311af93a9aac20" name="ab99d74936a7be85ac8311af93a9aac20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab99d74936a7be85ac8311af93a9aac20">&#9670;&#160;</a></span>updateNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,12 +305,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResponseEntity&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1_a_p_i_response.html">APIResponse</a>&lt; <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_response_d_t_o.html">NoteResponseDTO</a> &gt; &gt; edu.yacoubi.crm.controllers.api.NoteRestController.updateNote </td>
           <td>(</td>
-          <td class="paramtype">@PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>noteId</em></span>, </td>
+          <td class="paramtype">final @PathVariable Long</td>          <td class="paramname"><span class="paramname"><em>noteId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">@Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>noteRequestDTO</em></span>&#160;)</td>
+          <td class="paramtype">final @Valid @RequestBody <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1dto_1_1note_1_1_note_request_d_t_o.html">NoteRequestDTO</a></td>          <td class="paramname"><span class="paramname"><em>noteRequestDTO</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -277,10 +319,42 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Full update of an existing note by its unique ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">noteId</td><td>the unique ID of the note to update </td></tr>
+    <tr><td class="paramname">noteRequestDTO</td><td>the note request data transfer object containing the details of the note to be updated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the updated note details wrapped in an APIResponse </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac130a9ac1c1ce5525ee2b3683f5a0383" name="ac130a9ac1c1ce5525ee2b3683f5a0383"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac130a9ac1c1ce5525ee2b3683f5a0383">&#9670;&#160;</a></span>COMPLETED</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String edu.yacoubi.crm.controllers.api.NoteRestController.COMPLETED = &quot;Operation completed&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Completion message for a successful operation. </p>
+
+</div>
+</div>
 <a id="aff5d191b93374d50108fb6c2c3af92db" name="aff5d191b93374d50108fb6c2c3af92db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff5d191b93374d50108fb6c2c3af92db">&#9670;&#160;</a></span>noteOrchestratorService</h2>
 
@@ -300,6 +374,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Orchestrator service for creating note for customer. </p>
 
 </div>
 </div>
@@ -322,6 +397,30 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Service for note operations. </p>
+
+</div>
+</div>
+<a id="ad1dc94cb669afd6bda6016285a106e73" name="ad1dc94cb669afd6bda6016285a106e73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1dc94cb669afd6bda6016285a106e73">&#9670;&#160;</a></span>SUCCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String edu.yacoubi.crm.controllers.api.NoteRestController.SUCCESS = &quot;Success&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Success message. </p>
 
 </div>
 </div>
