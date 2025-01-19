@@ -132,7 +132,15 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a6cf5d7a37f3598c44aa3a2a58db981ec" id="r_a6cf5d7a37f3598c44aa3a2a58db981ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf5d7a37f3598c44aa3a2a58db981ec">ApiResponseHelper</a> ()</td></tr>
 <tr class="separator:a6cf5d7a37f3598c44aa3a2a58db981ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Helper class for creating API responses.</p>
+<p>This class provides static methods to create API responses for different data types.</p>
+<p>Usage example:</p>
+<pre>
+    APIResponse&lt;Page&lt;MyEntity&gt;&gt; response = <a class="el" href="classedu_1_1yacoubi_1_1crm_1_1util_1_1_api_response_helper.html">ApiResponseHelper</a>
+    .getPageAPIResponse("Success", "OK", HttpStatus.OK, myPageData);
+</pre><dl class="section author"><dt>Author</dt><dd>A. El Yacoubi </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6cf5d7a37f3598c44aa3a2a58db981ec" name="a6cf5d7a37f3598c44aa3a2a58db981ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cf5d7a37f3598c44aa3a2a58db981ec">&#9670;&#160;</a></span>ApiResponseHelper()</h2>
 
@@ -195,6 +203,18 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Creates an API response for a DTO object.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&lt;T&gt;</td><td>the type of the data </td></tr>
+    <tr><td class="paramname">msg</td><td>the message to include in the response </td></tr>
+    <tr><td class="paramname">statusMsg</td><td>the status message to include in the response </td></tr>
+    <tr><td class="paramname">statusCode</td><td>the HTTP status code to include in the response </td></tr>
+    <tr><td class="paramname">dto</td><td>the data to include in the response </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the API response </dd></dl>
 
 </div>
 </div>
@@ -234,6 +254,18 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Creates an API response for a paginated data set.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&lt;T&gt;</td><td>the type of the data </td></tr>
+    <tr><td class="paramname">msg</td><td>the message to include in the response </td></tr>
+    <tr><td class="paramname">statusMsg</td><td>the status message to include in the response </td></tr>
+    <tr><td class="paramname">statusCode</td><td>the HTTP status code to include in the response </td></tr>
+    <tr><td class="paramname">dataPage</td><td>the paginated data to include in the response </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the API response </dd></dl>
 
 </div>
 </div>
@@ -268,6 +300,16 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Creates an API response without any data.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td>the message to include in the response </td></tr>
+    <tr><td class="paramname">statusMsg</td><td>the status message to include in the response </td></tr>
+    <tr><td class="paramname">statusCode</td><td>the HTTP status code to include in the response </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the API response </dd></dl>
 
 </div>
 </div>

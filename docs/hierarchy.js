@@ -21,6 +21,7 @@ var hierarchy =
     [ "edu.yacoubi.crm.dto.employee.EmployeeRequestDTO", "classedu_1_1yacoubi_1_1crm_1_1dto_1_1employee_1_1_employee_request_d_t_o.html", null ],
     [ "edu.yacoubi.crm.dto.employee.EmployeeResponseDTO", "classedu_1_1yacoubi_1_1crm_1_1dto_1_1employee_1_1_employee_response_d_t_o.html", null ],
     [ "edu.yacoubi.crm.controllers.api.EmployeeRestController", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_employee_rest_controller.html", null ],
+    [ "edu.yacoubi.crm.controllers.api.v2.EmployeeRestControllerV2", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_employee_rest_controller_v2.html", null ],
     [ "edu.yacoubi.crm.controllers.toviews.EmployeeViewController", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1toviews_1_1_employee_view_controller.html", null ],
     [ "edu.yacoubi.crm.service.util.EntityAction", "interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1util_1_1_entity_action.html", null ],
     [ "edu.yacoubi.crm.util.EntityTransformer", "classedu_1_1yacoubi_1_1crm_1_1util_1_1_entity_transformer.html", null ],
@@ -39,6 +40,9 @@ var hierarchy =
     ] ],
     [ "edu.yacoubi.crm.repository.IEmployeeCustomRepository", "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_i_employee_custom_repository.html", [
       [ "edu.yacoubi.crm.repository.impl.EmployeeCustomRepositoryImpl", "classedu_1_1yacoubi_1_1crm_1_1repository_1_1impl_1_1_employee_custom_repository_impl.html", null ]
+    ] ],
+    [ "edu.yacoubi.crm.controllers.api.v2.IEmployeeFacade", "interfaceedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_i_employee_facade.html", [
+      [ "edu.yacoubi.crm.controllers.api.v2.EmployeeFacadeImpl", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_employee_facade_impl.html", null ]
     ] ],
     [ "edu.yacoubi.crm.service.IEmployeeService", "interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_employee_service.html", [
       [ "edu.yacoubi.crm.service.impl.EmployeeServiceImpl", "classedu_1_1yacoubi_1_1crm_1_1service_1_1impl_1_1_employee_service_impl.html", null ]
@@ -69,6 +73,7 @@ var hierarchy =
     [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.model.Employee, edu.yacoubi.crm.dto.employee.EmployeeResponseDTO >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
     [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.model.Employee, edu.yacoubi.crm.model.InactiveEmployee >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
     [ "edu.yacoubi.crm.util.ITransformer< edu.yacoubi.crm.model.Note, edu.yacoubi.crm.dto.note.NoteResponseDTO >", "interfaceedu_1_1yacoubi_1_1crm_1_1util_1_1_i_transformer.html", null ],
+    [ "edu.yacoubi.crm.config.JacksonConfig", "classedu_1_1yacoubi_1_1crm_1_1config_1_1_jackson_config.html", null ],
     [ "JpaRepository", null, [
       [ "edu.yacoubi.crm.repository.CustomerRepository", "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_customer_repository.html", null ],
       [ "edu.yacoubi.crm.repository.EmployeeRepository", "interfaceedu_1_1yacoubi_1_1crm_1_1repository_1_1_employee_repository.html", null ],

@@ -4,10 +4,16 @@ var annotated_dup =
       [ "yacoubi", null, [
         [ "crm", "namespaceedu_1_1yacoubi_1_1crm.html", [
           [ "config", "namespaceedu_1_1yacoubi_1_1crm_1_1config.html", [
-            [ "CorsConfig", "classedu_1_1yacoubi_1_1crm_1_1config_1_1_cors_config.html", "classedu_1_1yacoubi_1_1crm_1_1config_1_1_cors_config" ]
+            [ "CorsConfig", "classedu_1_1yacoubi_1_1crm_1_1config_1_1_cors_config.html", "classedu_1_1yacoubi_1_1crm_1_1config_1_1_cors_config" ],
+            [ "JacksonConfig", "classedu_1_1yacoubi_1_1crm_1_1config_1_1_jackson_config.html", null ]
           ] ],
           [ "controllers", null, [
             [ "api", "namespaceedu_1_1yacoubi_1_1crm_1_1controllers_1_1api.html", [
+              [ "v2", "namespaceedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2.html", [
+                [ "EmployeeFacadeImpl", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_employee_facade_impl.html", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_employee_facade_impl" ],
+                [ "EmployeeRestControllerV2", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_employee_rest_controller_v2.html", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_employee_rest_controller_v2" ],
+                [ "IEmployeeFacade", "interfaceedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_i_employee_facade.html", "interfaceedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_i_employee_facade" ]
+              ] ],
               [ "CustomerRestController", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_customer_rest_controller.html", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_customer_rest_controller" ],
               [ "EmployeeRestController", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_employee_rest_controller.html", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_employee_rest_controller" ],
               [ "NoteRestController", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller.html", "classedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1_note_rest_controller" ],

@@ -1,0 +1,9 @@
+<map id="edu.yacoubi.crm.controllers.api.v2.EmployeeFacadeImpl" name="edu.yacoubi.crm.controllers.api.v2.EmployeeFacadeImpl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="237,384,451,640"/>
+<area shape="rect" id="Node000002" href="$interfaceedu_1_1yacoubi_1_1crm_1_1controllers_1_1api_1_1v2_1_1_i_employee_facade.html" title=" " alt="" coords="5,56,219,269"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,280,262,383,257,386,189,283"/>
+<area shape="rect" id="Node000003" href="$interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_employee_service.html" title=" " alt="" coords="243,5,446,320"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="347,320,347,367,342,367,342,320"/>
+<area shape="rect" id="Node000004" href="$interfaceedu_1_1yacoubi_1_1crm_1_1service_1_1_i_entity_orchestrator_service.html" title="Service interface for orchestrating entities." alt="" coords="470,80,680,245"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="531,247,460,361,453,372,448,369,455,359,526,244"/>
+</map>

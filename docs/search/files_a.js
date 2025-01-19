@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['securityconfig_2ejava_0',['SecurityConfig.java',['../_security_config_8java.html',1,'']]],
-  ['statusrestcontroller_2ejava_1',['StatusRestController.java',['../_status_rest_controller_8java.html',1,'']]]
+  ['resourcenotfoundexception_2ejava_0',['ResourceNotFoundException.java',['../_resource_not_found_exception_8java.html',1,'']]],
+  ['role_2ejava_1',['Role.java',['../_role_8java.html',1,'']]],
+  ['rolerepository_2ejava_2',['RoleRepository.java',['../_role_repository_8java.html',1,'']]]
 ];
